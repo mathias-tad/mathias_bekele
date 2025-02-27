@@ -38,11 +38,6 @@
   justify-content: space-evenly;
   align-items: center;
 }
-@media only screen and (width > 650px) {
-  .App-header {
-    justify-content: space-around;
-  }
-}
 
 .head-text {
   background-color: aliceblue;
@@ -181,4 +176,14 @@ textarea {
   text-align: center;
   color: black;
   font-size: 1.3rem;
+}
+@media only screen and (width > 650px) {
+  .App-header {
+    justify-content: space-around;
+  }
+}
+@media only screen and (width < 600px) {
+  .direct {
+    transform: scale(0.8);
+  }
 }

@@ -1,21 +1,24 @@
 {
   "files": {
-    "main.css": "/mathias_bekele/static/css/main.2e6644d9.css",
-    "main.js": "/mathias_bekele/static/js/main.ba3a510f.js",
+    "main.css": "/mathias_bekele/static/css/main.dc81cc5e.css",
+    "main.js": "/mathias_bekele/static/js/main.85025afc.js",
     "static/js/453.c25e849e.chunk.js": "/mathias_bekele/static/js/453.c25e849e.chunk.js",
     "static/media/Portrait.png": "/mathias_bekele/static/media/Portrait.f976d13842bdad0134fc.png",
+    "static/media/FiraCode-VariableFont_wght.ttf": "/mathias_bekele/static/media/FiraCode-VariableFont_wght.195a5963e89a1ff0cf03.ttf",
     "static/media/logo.png": "/mathias_bekele/static/media/logo.f71655421546841e5fb2.png",
+    "static/media/IndieFlower-Regular.ttf": "/mathias_bekele/static/media/IndieFlower-Regular.599d26584b9afc1d20b1.ttf",
     "static/media/github-brands.svg": "/mathias_bekele/static/media/github-brands.0a783253d45bc232bb9f16083ce00012.svg",
     "static/media/whatsapp.svg": "/mathias_bekele/static/media/whatsapp.f89a7cbea6ee3462f785420b900f7ee0.svg",
+    "static/media/feather-pointed-solid.svg": "/mathias_bekele/static/media/feather-pointed-solid.a6dcabd14be4e2f9992ca978959967bc.svg",
     "static/media/telegram-brands.svg": "/mathias_bekele/static/media/telegram-brands.c3e21e0ae57f6adf7d74940656998684.svg",
     "index.html": "/mathias_bekele/index.html",
     "static/media/envelope.svg": "/mathias_bekele/static/media/envelope.47e816984a875ad6d4891ec36210d3a0.svg",
-    "main.2e6644d9.css.map": "/mathias_bekele/static/css/main.2e6644d9.css.map",
-    "main.ba3a510f.js.map": "/mathias_bekele/static/js/main.ba3a510f.js.map",
+    "main.dc81cc5e.css.map": "/mathias_bekele/static/css/main.dc81cc5e.css.map",
+    "main.85025afc.js.map": "/mathias_bekele/static/js/main.85025afc.js.map",
     "453.c25e849e.chunk.js.map": "/mathias_bekele/static/js/453.c25e849e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2e6644d9.css",
-    "static/js/main.ba3a510f.js"
+    "static/css/main.dc81cc5e.css",
+    "static/js/main.85025afc.js"
   ]
 }

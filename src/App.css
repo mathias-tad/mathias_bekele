@@ -182,8 +182,14 @@ textarea {
     justify-content: space-around;
   }
 }
-@media only screen and (width < 600px) {
-  .direct {
+@media only screen and (width < 650px) {
+  .contact-links {
     transform: scale(0.8);
+  }
+  .direct {
+    padding: 2rem 5rem;
+  }
+  .contact-wrap{
+    overflow-x: hidden;
   }
 }

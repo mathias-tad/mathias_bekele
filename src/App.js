@@ -39,10 +39,7 @@ function App() {
           </div>
           <div className="wrapper">
             <div className="link-to-projects">
-              <p>
-                Explore Some of My Featured Works Below or click "Projects" tab
-                above
-              </p>
+              <p>My works</p>
             </div>
             <div className="another-div"></div>
           </div>

@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/mathias_bekele/static/css/main.dc81cc5e.css",
-    "main.js": "/mathias_bekele/static/js/main.85025afc.js",
+    "main.css": "/mathias_bekele/static/css/main.8a122437.css",
+    "main.js": "/mathias_bekele/static/js/main.c92809f2.js",
     "static/js/453.c25e849e.chunk.js": "/mathias_bekele/static/js/453.c25e849e.chunk.js",
     "static/media/Portrait.png": "/mathias_bekele/static/media/Portrait.f976d13842bdad0134fc.png",
     "static/media/FiraCode-VariableFont_wght.ttf": "/mathias_bekele/static/media/FiraCode-VariableFont_wght.195a5963e89a1ff0cf03.ttf",
@@ -13,12 +13,12 @@
     "static/media/telegram-brands.svg": "/mathias_bekele/static/media/telegram-brands.c3e21e0ae57f6adf7d74940656998684.svg",
     "index.html": "/mathias_bekele/index.html",
     "static/media/envelope.svg": "/mathias_bekele/static/media/envelope.47e816984a875ad6d4891ec36210d3a0.svg",
-    "main.dc81cc5e.css.map": "/mathias_bekele/static/css/main.dc81cc5e.css.map",
-    "main.85025afc.js.map": "/mathias_bekele/static/js/main.85025afc.js.map",
+    "main.8a122437.css.map": "/mathias_bekele/static/css/main.8a122437.css.map",
+    "main.c92809f2.js.map": "/mathias_bekele/static/js/main.c92809f2.js.map",
     "453.c25e849e.chunk.js.map": "/mathias_bekele/static/js/453.c25e849e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dc81cc5e.css",
-    "static/js/main.85025afc.js"
+    "static/css/main.8a122437.css",
+    "static/js/main.c92809f2.js"
   ]
 }

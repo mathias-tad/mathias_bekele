@@ -11,10 +11,13 @@
 
 .App-logo {
   max-height: 40px;
-  pointer-events: none;
   width: 35vmin;
   display: flex;
   align-items: center;
+}
+
+.App-logo:hover {
+  cursor: pointer;
 }
 
 .App-header {
@@ -31,15 +34,40 @@
   border-bottom: 3px solid #004080;
   min-width: 100vw;
   box-sizing: border-box;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  background-color: white;
 }
 
 .NavLink {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
-  min-width: 50vmin;
+  min-width: 60vmin;
+  max-width: 100vw;
   justify-content: space-evenly;
   align-items: center;
+}
+
+.NavLink li {
+  padding: 2px 4px;
+}
+
+.NavLink li:hover {
+  cursor: pointer;
+  background-color: navy;
+  color: white;
+  border-radius: 5px;
+}
+
+.NavLink li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.heading a {
+  text-decoration: none;
 }
 
 .head-text {
@@ -78,6 +106,7 @@
   flex-wrap: wrap;
   justify-content: space-around;
   max-width: 100vw;
+  padding-top: 5rem;
 }
 .name-and-photo{
   max-width: 20rem;
@@ -92,21 +121,24 @@
   font-size: 2.5rem;
   color: #0059b3;
 }
-.wrapper{
+.wrapper {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  max-width: 8rem;
+  max-width: 15rem;
   padding-top: 2rem;
   padding-bottom: 0;
-  visibility: hidden;
-  animation: blink 1s ease-in-out;
-  animation-delay: 1s;
+  transform: scale(1.05);
+  height: fit-content;
+  animation: blink 0.5s steps(10, end);
   animation-iteration-count: infinite;
+  animation-delay: 0s;
+  margin-top: calc(30vmin);
 }
-.wrapper:hover{
+.wrapper:hover {
   cursor: pointer;
+  animation: none;
   transform: scale(1.1);
 }
 .link-to-projects{
@@ -121,14 +153,25 @@
   border: none;
 }
 .another-div{
-  border-right: 7rem solid transparent;
-  border-left: 7rem solid transparent;
-  border-top: 7rem solid navy;
+  border-right: 5rem solid transparent;
+  border-left: 5rem solid transparent;
+  border-top: 5rem solid navy;
+  margin-top: 0;
+  padding-top: 0;
+}
+.projects {
+  min-width: 100%;
+  min-height: 100vh;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  padding-top: 5rem;
 }
 .contact-wrap{
   min-height: 100vh;
+  padding-top: 5rem;
 }
-.contact-wrap h1 {
+.contact-wrap h1, .projects h1 {
   border-bottom: 3px solid #004080;
   text-align: center;
   color: #0059b3;
@@ -156,6 +199,11 @@
   margin: 1rem;
   text-align: left;
 }
+
+.contact-wrap ul li:hover {
+  transform:translateY(10px);
+}
+
 .contact-wrap ul li a{
   text-decoration: none;
   color: #0059b3;
@@ -180,6 +228,17 @@ input{
 }
 button {
   display: block;
+  background: linear-gradient(#003366, #0059b3);
+  border-radius: 10px;
+  width: 5rem;
+  color: white;
+  font-weight: bold;
+}
+button:hover {
+  cursor: pointer;
+  background: linear-gradient(aliceblue, white);
+  color: navy;
+  border-color: aliceblue;
 }
 textarea {
   display: block;
@@ -224,6 +283,7 @@ textarea {
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
+  padding-top: 5rem;
 }
 .about h2{
   font-size: 3rem;
@@ -306,6 +366,6 @@ src: url("./FiraCode-VariableFont_wght.ttf");
   to {width: 100%;}
 }
 @keyframes blink {
-  0% {visibility: hidden;}
-  100% {visibility: visible;}
+  from {transform: scale(1);}
+  to {transform: scale(1.05);}
 }

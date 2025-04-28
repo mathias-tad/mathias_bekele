@@ -14,11 +14,13 @@ function App() {
     <div className="App">
       <div className="heading">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
+          <a href="#head-info">
+            <img src={logo} className="App-logo" alt="logo" />
+          </a>
           <NavLink />
         </header>
 
-        <div className="head-info">
+        <div className="head-info" id="head-info">
           <div className="head-text-wraper">
             <div className="head-text">
               <p className="head-text1">Web App Developer (Front-End)</p>
@@ -37,15 +39,18 @@ function App() {
               alt="Portrait of Mathias Bekele"
             />
           </div>
-          <div className="wrapper">
-            <div className="link-to-projects">
-              <p>My works</p>
+          <a href="#projects">
+            <div className="wrapper">
+              <div className="link-to-projects">
+                <p>My works</p>
+              </div>
+              <div className="another-div"></div>
             </div>
-            <div className="another-div"></div>
-          </div>
+          </a>
         </div>
       </div>
       <About />
+      <Projects />
       <Contacts />
     </div>
   );
@@ -54,9 +59,15 @@ class NavLink extends React.Component {
   render() {
     return (
       <ul className="NavLink">
-        <li>About</li>
-        <li>Projects</li>
-        <li>Contacts</li>
+        <li>
+          <a href="#about">About</a>
+        </li>
+        <li>
+          <a href="#projects">Projects</a>
+        </li>
+        <li>
+          <a href="#contacts">Contacts</a>
+        </li>
       </ul>
     );
   }
@@ -78,7 +89,7 @@ class About extends React.Component {
   }
   render() {
     return (
-      <div className="about">
+      <div className="about" id="about">
         <div className="first">
           <h2>Get to Know Me</h2>
           <button className="show-cert" onClick={this.clickHandler}>
@@ -146,10 +157,20 @@ class About extends React.Component {
   }
 }
 
+class Projects extends React.Component {
+  render() {
+    return (
+      <div className="projects" id="projects">
+        <h1>Some of my works</h1>
+      </div>
+    );
+  }
+}
+
 class Contacts extends React.Component {
   render() {
     return (
-      <div className="contact-wrap">
+      <div className="contact-wrap" id="contacts">
         <h1>Get in Touch</h1>
         <div className="lets-create">
           <div className="pointer"></div>
